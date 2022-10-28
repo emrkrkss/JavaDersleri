@@ -1,0 +1,47 @@
+package ders5_3;
+import java.util.Scanner;
+
+public class main3
+
+{
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Scanner oku = new Scanner (System.in);
+		int gun, ay;
+		System.out.println("Doğduğunuz Günü Girin");
+		gun = oku.nextInt();
+		System.out.println("Doğduğunuz ayI Girin");
+		ay = oku.nextInt();
+		burc(gun, ay);
+	}
+	public static void burc(int gün, int ay) {
+		
+		if(gün>5 && gün<25 && ay==1) {
+			System.out.println("OCAK BURCU");
+			
+		}
+		else if(gün>5 && gün<25 && ay==2) {
+			System.out.println("YAY BURCU");
+			
+		}
+		else if(gün>5 && gün<25 && ay==3) {
+			System.out.println("BAŞAK BURCU");
+			
+		}
+		else if(gün>5 && gün<25 && ay==4) {
+			System.out.println("İKİZLER BURCU");
+			
+		}
+		else if(gün>5 && gün<25 && ay==5) {
+			System.out.println("BALIK BURCU");
+			
+		}
+		else
+		{
+			System.out.println("HATA");
+		}
+		}
+	}
+
