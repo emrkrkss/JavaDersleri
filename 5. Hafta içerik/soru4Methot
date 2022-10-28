@@ -1,0 +1,24 @@
+package ders5_3;
+import java.util.Scanner;
+
+public class main3
+
+{
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		int x, y;
+		x = 10;
+		y = 3;
+		System.out.println(topla(x,y));
+			
+
+	}
+	public static int topla(int a, int b) {
+		int toplam = a+b;
+		return toplam;
+		
+		}
+	}
+
