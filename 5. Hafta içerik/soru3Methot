@@ -1,0 +1,23 @@
+package ders5_3;
+import java.util.Scanner;
+
+public class main3
+
+{
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		int a;
+		a=3;
+		dongu(a);
+			
+
+	}
+	public static void dongu(int a) {
+		for(int i=0; i<a; i++) {
+			System.out.println(i);
+		}
+	}
+
+}
