@@ -1,0 +1,30 @@
+package diziler;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner oku = new Scanner(System.in);
+		int dizi []= new int [5];
+		int toplam=0;
+		double ort;
+		
+		for(int i=0;i<5;i++)
+		{
+			System.out.print(i+1+".sayiyi giriniz: ");
+			dizi[i]=oku.nextInt();
+			
+			
+		}
+		for(int i=0;i<5;i++)
+		{
+			toplam=toplam+dizi[i];	
+		}
+		
+		System.out.println("Toplam="+toplam);
+		ort=(double)toplam/5;
+		System.out.print("Ortalama="+ort);
+		
+	}
+
+}
