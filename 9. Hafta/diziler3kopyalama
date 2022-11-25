@@ -1,0 +1,23 @@
+package diziler;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner oku = new Scanner(System.in);
+		int [] dizikopya = {1,2,3,4,5};
+		int [] dizikopya2 = new int[dizikopya.length];
+		int i, k;
+		for(i=0;i<dizikopya.length;i++)
+		{
+			dizikopya2[i]=dizikopya[i];
+		}
+		for(k=0;k<dizikopya2.length;k++)
+		{
+			System.out.println(dizikopya2[k]);
+		}
+		
+		
+	}
+
+}
