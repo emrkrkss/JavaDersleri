@@ -1,0 +1,23 @@
+package diziler;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner oku = new Scanner(System.in);
+		int dizi []= new int [5];
+		for(int i=0;i<5;i++)
+		{
+			System.out.println(i+1+".sayiyi giriniz: ");
+			dizi[i]=oku.nextInt();
+		}
+		for(int k=0; k<5; k++)
+		{
+			System.out.println(k+". Eleman: "+dizi[k]);
+		}
+		
+		
+
+	}
+
+}
